@@ -70,7 +70,7 @@
     }
 
     .home-header {
-        @apply mb-2.5 flex-row items-center justify-between;
+        @apply mb-3.5 flex-row items-center justify-between;
     }
 
     .home-user {
@@ -90,7 +90,7 @@
     }
 
     .home-balance-card {
-        @apply my-2.5 min-h-50 justify-between gap-5 rounded-bl-4xl rounded-tr-4xl bg-accent p-6;
+        @apply my-2.5 min-h-50 justify-between gap-5 rounded-4xl bg-accent p-6;
     }
 
     .home-balance-label {
@@ -134,7 +134,7 @@
     }
 
     .upcoming-icon {
-        @apply size-14;
+        @apply size-10;
     }
 
     .upcoming-price {
@@ -198,7 +198,7 @@
     }
 
     .sub-details {
-        @apply gap-6;
+        @apply gap-2;
     }
 
     .sub-row {
