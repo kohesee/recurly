@@ -27,7 +27,9 @@ export default function App() {
   >(null);
 
   return (
-    <SafeAreaView className="flex-1 bg-background p-5">
+    <View className="flex-1 bg-background"> 
+
+    <SafeAreaView className="flex-1 p-5" edges={["top"]}>
       <StatusBar barStyle="dark-content" />
 
         <FlatList
@@ -90,5 +92,6 @@ export default function App() {
           contentContainerClassName="pb-20"
         />
     </SafeAreaView>
+    </View>
   );
 }
