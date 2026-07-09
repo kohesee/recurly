@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.myapp"
     },
     "web": {
       "output": "static",
@@ -40,7 +41,8 @@
         }
       ],
       [
-        "expo-font", {
+        "expo-font",
+        {
           "fonts": [
             "./assets/fonts/PlusJakartaSans-Regular.ttf",
             "./assets/fonts/PlusJakartaSans-Medium.ttf",
@@ -48,13 +50,21 @@
             "./assets/fonts/PlusJakartaSans-Bold.ttf",
             "./assets/fonts/PlusJakartaSans-ExtraBold.ttf",
             "./assets/fonts/PlusJakartaSans-Light.ttf"
-        ]
+          ]
         }
-      ]
+      ],
+      "@clerk/expo",
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1f38f6e5-7b0a-4cfc-a4ae-e5316a1efd6c"
+      }
     }
   }
 }
